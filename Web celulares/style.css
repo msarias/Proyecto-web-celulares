@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background: rgba(10, 10, 60, 0.652);
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    background: rgb(146, 13, 13);
+}
+
+h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#tabla_contenido{
+    background: rgb(205, 73, 73);
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    outline: 2px solid #000;
+}
+
+th{
+    background: rgb(90, 8, 8);
+}
+
+td{
+    background: #fff;
+    border-radius: 2px;
+    color: rgb(146, 13, 13);
+    padding: 3px;
+}
+
+h5{
+    margin-top: 5px;
+}
+
+h3{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#consultar-dispositivo{
+    background: rgb(165, 42, 42);
+    padding: 10px;
+}
+
+.acciones-dispositivos{
+    background: rgba(90, 8, 8, 0.59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+input{
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    background-color: rgb(90, 8, 8);
+    margin-top: 5px;
+    outline: none;
+}
+
+input:focus{
+    background: #fff;
+    color: rgb(146, 13, 13);
+    outline: rgb(90, 8, 8) 3px solid;
+}
+
+button{
+    color: #fff;
+    background-color: rgb(90, 8, 8);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+button:hover{
+    background: #fff;
+    color: rgb(90, 8, 8);
+    opacity: .8;
+}

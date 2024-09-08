@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web celulares</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body onload="obtenerInformacion()">
+    <div class="container">
+        <h1>MobileStock</h1>
+        <table id="tabla_contenido">
+            <thead>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Modelo</th>
+                <th>Color</th>
+                <th>Almacenamiento</th>
+                <th>Procesador</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+    <div id="consultar-dispositivo">
+        <h3>Consultar dispositivo</h3>
+        <h5>Ingrese el ID:</h5>
+        <input type="number" id="id_input">
+        <h5>Ingrese la marca:</h5>
+        <input type="text" id="marca_input">
+        <h5>Ingrese el modelo:</h5>
+        <input type="text" id="modelo_input">
+        <h5>Ingrese el color:</h5>
+        <input type="text" id="color_input">
+        <h5>Ingrese el almacenamiento:</h5>
+        <input type="text" id="almacenamiento_input">
+        <h5>Ingrese el procesador:</h5>
+        <input type="text" id="procesador_input">
+
+        <div class="acciones-dispositivos">
+            <button onclick="agregar()">Agregar</button>
+            <button onclick="eliminar()">Eliminar</button>
+            <button onclick="modificar()">Modificar</button>
+        </div>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
